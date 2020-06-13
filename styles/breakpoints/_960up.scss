@@ -1,23 +1,30 @@
 .main{
-
-    
-   
-
     &-top{
         &>p{
             width: 50%;
         }
+
         &>h1{
             text-align: center;
         }
     }
+
     &-location{
         width: 50%;
     }
+
     &-find{
         width: 50%;
     }
 
+    &-register{
+        display: flex;
+        justify-content: space-between;
+
+        &-item{
+            width: 30%;
+       }
+    }
 
     &-foods{
         &-inner{
@@ -27,7 +34,6 @@
 
         &-item{
             width: 45%;
-
         }
     }
 }
@@ -40,7 +46,7 @@
     }
 
     &-bottom{
-        .footer-ul{
+        & .footer-ul{
             display: flex;
             justify-content:space-between;
         }
